@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+      .main
+      {
+        position: relative;
+        top: 20vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+        .s1,.s2{
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 20px solid transparent;
+            border-right: 20px solid transparent;
+            border-bottom: 16px solid rgba(255, 217, 0, 0.723);
+        
+        }
+        .s3{
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-left: 8px solid transparent;
+            border-right: 8px solid transparent;
+            border-bottom: 20px solid rgba(255, 217, 0, 0.654);
+            margin-left: 12px;
+            margin-top: -11px;
+        }
+
+        .star{
+            position: relative;
+            margin-bottom: 35px;
+            margin-left: -40px;
+        }
+        .s1{
+            transform: rotate(-40deg);
+        }
+        .s2{
+            transform: rotate(40deg);
+        }
+        .tree{
+            width: 0;
+            height: 0;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            border-bottom: 80px solid #517E19;
+            
+            
+        }
+        .t1{
+            border-left: 120px solid transparent;
+            border-right: 120px solid transparent;
+            border-bottom: 100px solid #517E19;
+            margin-top: -70px;
+      
+        }
+        .t2{
+            border-left: 140px solid transparent;
+            border-right: 140px solid transparent;
+            border-bottom: 120px solid #517E19;
+            margin-top: -80px;
+        }
+        .t3{
+            border-left: 160px solid transparent;
+            border-right: 160px solid transparent;
+            border-bottom: 140px solid #517E19;
+            margin-top: -90px;
+        }
+        .trunk{
+            width: 50px;
+            height: 70px;
+            background-color: rgb(140, 92, 92);
+            margin-top: -30px;
+        }
+        .lights
+        {
+            width: 230px;
+            display: flex;
+            justify-content:space-between;
+
+        }
+        .c{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: #f65df4;
+            
+        }
+        .l1{
+            width: 270px;
+        }
+        .l2{
+            width: 310px;
+        }
+        .l3{
+            width: 350px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <div class="star">
+            <div class="s1"></div>
+            <div class="s2"></div>
+            <div class="s3"></div>
+        </div>
+        <div class="tree"></div>
+        <div class="lights">
+            <div class="c"></div>
+            <div class="c"></div>
+        </div>
+        <div class="tree t1">
+        </div>
+        <div class="lights l1">
+            <div class="c"></div>
+            <div class="c"></div>
+        </div>
+        <div class="tree t2"></div>
+        <div class="lights l2">
+            <div class="c"></div>
+            <div class="c"></div>
+        </div>
+        <div class="tree t3"></div>
+        <div class="lights l3">
+            <div class="c"></div>
+            <div class="c"></div>
+        </div>
+        <div class="trunk"></div>
+    </div>
+    </div>
+    
+  </body>
+</html>
